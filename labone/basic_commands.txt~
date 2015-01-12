@@ -1,0 +1,62 @@
+cat command :
+The cat command reads one or more files and prints them to standard output. 
+The operator > can be used to combine multiple files into one. 
+The operator >> can be used to append to an existing file.
+example:
+cat file1
+cat file1 file2 > all
+cat file1 >> file2
+--------------------------------------------------------------------------------
+date command:
+date "+%d" : for extracting day, m for month, y for year, M for minutes.
+
+--------------------------------------------------------------------------------
+
+bc command:
+for basic calculator.
+
+------------------------------------------------------------------------------
+tty command:
+tty - print the file name of the terminal connected to standard input
+example:
+/dev/pts/23
+
+------------------------------------------------------------------------------
+cal command:
+displays a calendar 
+
+cal 2015:
+displays calendar for the whole year.
+
+-----------------------------------------------------------------------------
+wc command:
+word count
+
+wc -l filename
+displays only number of lines in the file.
+-c : number of characters in file
+-w : number of words in a file
+
+-----------------------------------------------------------------------------
+head filename
+displays the first 10 lines
+
+tail filename
+displays the last 10 lines of the file
+can specify line numbers using: head -n num_of_lines filename
+
+----------------------------------------------------------------------------
+sort filename
+
+
+
+
+
+
+
+
+
+
+
+
+
