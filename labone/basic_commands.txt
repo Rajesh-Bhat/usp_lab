@@ -47,6 +47,25 @@ can specify line numbers using: head -n num_of_lines filename
 
 ----------------------------------------------------------------------------
 sort filename
+sorts the content in ascending order
+sort -r filename :
+sorts the content in dscending order
+
+---------------------------------------------------------------------------
+pr
+lpr
+od -bc filename
+
+
+------------------------------------------------
+& is used to send the process to background
+
+fg is used to bring process to foreground
+
+--------------------------------------------
+interactive rm command
+rm -i hello.c
+rm: remove regular file ‘hello.c’? no
 
 
 
